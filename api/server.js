@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 
 const usersRouter = require('../users/users-router');
-const authenticator = require('./api/authenticator');
+const authenticator = require('./authenticator');
 const registerRouter = require('../register/register-router');
 const loginRouter = require('../login/login-router');
 
